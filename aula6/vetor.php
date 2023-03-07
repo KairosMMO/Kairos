@@ -24,7 +24,7 @@ $notas["debora"] = 7;
 $notas["murilo"] = 7.8;
 $notas["poliana"] =  9;
 echo"<p></p>";
-echo "A Polhyana tirou nota" . $notas ["poliana"];
+echo "A Poliana tirou nota" . $notas ["poliana"];
 
 //imprimindo conteúdo de um v
 
@@ -47,7 +47,7 @@ $acumulador = 0;
 for ($i=0; $i<=6; $i++) {
     $acumulador = $acumulador +  $valores [$i];
 }
-echo "O valor final do acumulador é:" . $acumulador;
+echo "a soma do valores é :" . $acumulador;
 ?>
 
     
