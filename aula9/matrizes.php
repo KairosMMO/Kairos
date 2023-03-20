@@ -30,6 +30,6 @@ echo $tabela[1] ["marca"];
 
 //json - Javascript Object Notation
 echo "<br><br><br><br>";
-echo json_encode ($tabela)
+echo json_encode ($tabela);
 
 ?>
