@@ -1,25 +1,24 @@
 <?php
 
-$host= "127.0.0.1";
+$host = "10.10.68.125";
 $port = "3306";
 $user = "root";
-$password = "";
+$passaword = "";
 $database = "db_catalogo_3infoa";
 
 //faz a conexão do PHP com o MySQL
- $conexao = new mysqli 
- ($host,
-  $user, 
-  $password,
-  $database, 
-  $port);
+$conexao = new mysqli($host,
+                      $user,
+                      $passaword,
+                      $database,
+                      $port);
 
-//Verifica se houve um erro ao realizar a conexão
-  if($conexao->connect_error){
-    echo "Foi encontrado o erro : " .
+//Verifica se houver um erro ao realizar a conexão                     
+if($conexao-> connect_error)  {
+    echo"Foi encontado o erro :" .
                     $conexao->connect_error;
-    die ();
+    die();
+    
 
-  }else {
-    echo "Conexão realizada com sucesso";
-  }
+}                     
+?>
